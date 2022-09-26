@@ -8,11 +8,11 @@ void fiveCircles(circle c[]) {
 
 int circleIsValid(const circle * c) {
 /*post: answer to exercise 6.c*/
-	return 0
+	return 0;
 }
 
 void translate(circle* c, const point* p) {
-/*ansver to exercise 6.d
+/*ansver to exercise 6.d*/
 }
 
 
