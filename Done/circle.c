@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-circle[5];	
+circle c[5];	
 
 void fiveCircles(circle c[]) {
 for(int i; i<5; i++){
@@ -13,7 +13,7 @@ for(int i; i<5; i++){
 	}
 }
 
-int circleIsValid(const circle * c) {
+bool circleIsValid(const circle * c) {
 if((c->r) > 0){
 	return true;
 } else {
