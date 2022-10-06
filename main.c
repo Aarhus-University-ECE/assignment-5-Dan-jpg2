@@ -20,13 +20,13 @@ int main(void) {
 	p.y = 2;
 	translate(&c[1], &p);
 	printCircle(c[1]);
-	printf("isValid: %d", circleIsValid(&c[1]));
+	printf("isValid: %d \n", circleIsValid(&c[1]));
 
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
 	printf("How many integers are in your sequence? \n");
 	scanf("%d", &n);
-	assert(n>1); 
+	assert(n>0); 
 
 	int *numbers = malloc(sizeof(int) * n); /*the numbers read*/
 
