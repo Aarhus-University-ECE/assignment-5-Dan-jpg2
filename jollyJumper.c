@@ -4,18 +4,18 @@
 #include <stdlib.h>
 
 
-
+// answer to 7.a
 int isJollyJumber(const int seq[], int size) {
 
     bool diffs_found[size-1];
-        int diff; 
+    int diff; 
     
     for (int i = 0; i < size - 1; i++){
         diffs_found[i] = false;
     }
 
-    for (i = 1; i < size; i++){
-        diff = a(seq[i-1] - seq[i]); 
+    for (int i = 1; i < size; i++){
+        diff = abs(seq[i-1] - seq[i]); 
 
         if(diff >= size || diff == 0) {
             return 0;
