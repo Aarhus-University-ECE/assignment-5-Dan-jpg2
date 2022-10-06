@@ -15,11 +15,11 @@ int main(void) {
 	for (int i = 0; i < 5; i++) {
 		printCircle(c[i]);
 	}
-	point p;
-	p.x = 2;
+	point p; //translation point / vector for test circle
+	p.x = 2; 
 	p.y = 2;
-	translate(&c[1], &p);
-	printCircle(c[1]);
+	translate(&c[1], &p); //Testing translate function with circle 1 and p
+	printCircle(c[1]); //printing result of the test 
 	printf("isValid: %d \n", circleIsValid(&c[1]));
 
 	/*answer to exercise 7.b*/
@@ -28,12 +28,12 @@ int main(void) {
 	scanf("%d", &n); 
 	assert(n>0); 
 
-	int *numbers = malloc(sizeof(int) * n); /*the numbers read*/
+	int *numbers = malloc(sizeof(int) * n); //Array to store read numbers
 
 	printf("input your sequence of numbers, use spacebar \n");
-for (int i=0; i<n; i++){
-	scanf("%d", &numbers[i]); 
-}
+	for (int i=0; i<n; i++){
+		scanf("%d", &numbers[i]); 
+	}
 	/*readin the n numbers in the array numbers*/
 
 	if(isJollyJumber(numbers, n)) {
