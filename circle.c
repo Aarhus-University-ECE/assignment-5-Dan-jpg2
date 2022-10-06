@@ -10,7 +10,7 @@ for(int i=0; i<5; i++){
 	c[i].p.x = i; //value of x at the point of i
 	c[i].p.y = i; // value of y at the poit of i
 	c[i].r = i;  //value of radius at the point of i
-	}
+	} 
 }
 //answer to exercise 6.c
 // cheking if the value of circle is valid. when the radius is bigger than 0

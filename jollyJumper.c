@@ -11,7 +11,7 @@ int isJollyJumber(const int seq[], int size) {
     int diff; 
     
     for (int i = 0; i < size - 1; i++){
-        diffs_found[i] = false;
+        diffs_found[i] = false; 
     }
 
     for (int i = 1; i < size; i++){

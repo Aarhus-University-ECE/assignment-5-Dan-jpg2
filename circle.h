@@ -9,7 +9,7 @@ typedef struct point {
 typedef struct circle {
 	point p;
 	int r; 
-} circle; 
+} circle;  
 
 /*add your definition of circle here. You need top call it "circle"*/
 

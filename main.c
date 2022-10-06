@@ -25,7 +25,7 @@ int main(void) {
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
 	printf("How many integers are in your sequence? \n");
-	scanf("%d", &n);
+	scanf("%d", &n); 
 	assert(n>0); 
 
 	int *numbers = malloc(sizeof(int) * n); /*the numbers read*/
